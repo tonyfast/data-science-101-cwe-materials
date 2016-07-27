@@ -77,7 +77,7 @@ Before we dive in, a bit about you!
 - You're curious and excited about data science!
 - You've installed [Anaconda with Python 2.7](https://www.continuum.io/downloads).
 
-> Instructor Note: Check that all laptops have a *Python 2.7* distribution. [Anaconda is the recommended distro](https://www.continuum.io/downloads).
+> Instructor Note: Check that all laptops have a *Python 2.7* distribution. [Anaconda is recommended](https://www.continuum.io/downloads).
 
 
 #### Our Objectives
@@ -229,13 +229,11 @@ You are a junior data scientist at Amazon. Your boss asks you about the leading 
 Take 10 minutes to work with the person next to you and talk through answers to these questions. Then, we'll take 5 minutes at the end of this period to come back and discuss.
 
 
-> Instructor Note:
-> 
-> **Suggested Answer**
+> Instructor Note: **Suggested Answer**
 > 
 > You can walk the student through the example all together in class. Use the discussion points below. 
 > 
-> **Check:** By this point, students should be able to understand specific actions related to the steps in the data science workflow. To assess this, you can then break the class into group and tackle a similar problem in their groups and share their results with the class:
+> **Check:** By this point, students should be able to understand **specific** actions related to the steps in the data science workflow. To assess this, you can then break the class into group and tackle a similar problem in their groups and share their results with the class:
 > 
 >  * Collect data around user retention, user actions within the product, potentially find data outside of company
 > * Extract aggregated values from raw data
@@ -272,18 +270,13 @@ In Python there are many related packages relevant to data science: pandas, Scik
 
 In this guided practice we are using a sample dataset; demonstrate how to carry out descriptive analytics using the `pandas` library we introduced above.
 
-> Instructor Note:
-> 
-> IDE to be used
-> 
-> You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
+> Instructor Note: You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
 
 ### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
-> Instructor Note:
-> 
-> If you use Dropbox to get the material to your students follow these steps:
+Accessing Files via **DROPBOX**
+> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
 
 The Dropbox link provided has a Zip file with the materials for the class. 
 
@@ -299,9 +292,8 @@ The Dropbox link provided has a Zip file with the materials for the class.
 5. Open the file from the Jupyter interface
 6. Voilà, you are ready to type the commands we will cover below
 
-> Instructor Note:
-> 
-> If you use GitHub to get the material to your students follow these steps:
+Accessing Files via **GITHUB**
+> Instructor Note: If you use GitHub to get the material to your students, follow these steps:
 
 To get a hold of the starter code, you'll need to download these materials.
 
@@ -317,24 +309,20 @@ To get a hold of the starter code, you'll need to download these materials.
 	
 6. Navigate to the  folder where you have saved the file in step 3
 7. Open the file from the Jupyter interface
-8. Voilà, you are ready to type the commands we will cover below
+8. Voilà, you are ready to type the commands we will cover below!
 
 ***
 
 <a name="ind-practice1"></a>
 ## Independent Practice: Analyze Some Data! (20 mins)
-> Instructor Note: 
+> Instructor Note: Using a second dataset, ask the students to carry out similar analysis to the one demonstrated during the "Guided Practice".
 > 
-> Using a second dataset, ask the students to carry out similar analysis to the one demonstrated during the "Guided Practice".
-> 
-> This can be a pair programming activity or done independently depending on the size of the class and on students' abilities. 
-> 
-> In either case, make sure that discussion of the results is done with the entire class.
+> This can be a pair programming activity or done independently depending on the size of the class and on students' abilities. In either case, make sure that discussion of the results is done with the entire class.
 > 
 
 # Now You Try!
 
-You are a business intelligence manager at a fast moving startup that deals with flowers. You need to analyze some data for iris flowers of three different species.
+You are a business intelligence manager at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
 
 You have received a sample data set with typical measures for the following three species for iris:
 
@@ -346,9 +334,7 @@ Let us use Python to perform some analytics that will help us differentiate the 
 
 ### Instructions for students
 
-> Instructor Note:
-> 
-> If you use Dropbox to get the material to your students follow these steps:
+> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
 
 The Dropbox link provided has a Zip file with the materials for the class. 
 
@@ -364,9 +350,7 @@ The Dropbox link provided has a Zip file with the materials for the class.
 5. Open the file from the Jupyter interface
 6. Voilà, you are ready to type the commands we will cover below
 
-Instructor Note:
-> 
-> If you use GitHub to get the material to your students follow these steps:
+> Instructor Note: If you use GitHub to get the material to your students follow these steps:
 
 To get a hold of the starter code, you'll need to download these materials.
 
@@ -383,34 +367,26 @@ To get a hold of the starter code, you'll need to download these materials.
 6. Voilà, you are ready to type the commands we will cover below
 
 > 
-> Instructor Note: 
-> 
-> **Solutions**
+> Instructor Note: **Solutions**
 > 
 > You can find a Jupyter notebook with solutions to the independent practice exercise in [DataScience101_Part1_IndPractice_Solutions.ipynb](./code/DataScience101_Part1_IndPractice_Solutions.ipynb)
 
 ***
 
-> **BREAK** (5 mins)
+**BREAK** (5 mins)
 
 ***
 
 <a name="intro2"></a>
 ## Introduction: What's an Algorithm, Anyway? (15 mins)
 
-> Instructor Note: 
-> 
-> Before re-starting the class, check for any questions the students may have about the first part of the workshop.
-> 
+> Instructor Note: Before re-starting the class, check for any questions the students may have about the first part of the workshop.
 
 # Discussion
 
 ###_**What comes to mind when you hear the word algorithm?**_
 
-> Instructor Note:
-> 
-> Amass a list of different descriptions from students.
-> Use that to lead to the information below.
+> Instructor Note: Amass a list of different descriptions from students. Use that to lead to the information below.
 
 *Algorithm*: A set of steps to accomplish a task.
 
@@ -419,15 +395,13 @@ Algorithms need to have their steps in the right order.
 Think about an algorithm for getting dressed in the morning. 
 
 - What if you put on your coat before your shirt? 
-	- Your shirt would be on top of your coat and that would be silly! 
+- Your shirt would be on top of your coat and that would be silly! 
 
-When you write an algorithm the order of the instructions is very important.
+When you write an algorithm, the order of the instructions is very important. In computer science, algorithms are a formal way of describing very precisely how to carry out certain computational tasks. 
 
-In computer science, algorithms are a formal way of describing very precisely how to carry out certain computational tasks. 
+Computers are very good at carrying out series of precisely defined instructions, and algorithms can be understood as formal description of computer programs. 
 
-Computers are very good at carrying out series of precisely defined instructions, and algorithms can be seen as formal description of computer programs. 
-
-#### Criteria of a good algorithm
+#### Criteria of a "good" algorithm
 
 * An algorithm is an **unambiguous description** that makes clear what has to be implemented. 
 	* In a recipe, a step such as “Bake until done” is ambiguous because it doesn’t explain what “done” means.
@@ -445,18 +419,17 @@ Data In -> Change -> New Data Out
 
 ### Discussion
 
-> Instructor Note:
-> 
-> Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task, e.g. making buttered toast, commuting to work, making a cup of coffee.
-> Student need to break down steps into the smallest, discrete, sequential items, etc.
+> Instructor Note: Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task, e.g. making buttered toast, commuting to work, making a cup of coffee. Student need to break down steps into the smallest, discrete, sequential items, etc.
 
-What is the algorithm for:
+In groups, create an algorithm using *pseudocode* - or fake code that describes a series of tasks - for one of the following recipes:
 
 - Making buttered toast
 - Commuting to work
 - Making a cup of coffee
 
-Break down the steps into the smallest discrete, sequential items and think of the logical order in which things have to be done to achieve the task.
+Break down the steps into the smallest discrete, sequential items and think of the logical order in which things have to be done to achieve the task! 
+
+> Note: Afterward, ask groups to share their "algorithms" with another group or the rest of the class. See if other students can follow the directions precisely - what happens? Were all steps described successfully?
 
 
 ***
@@ -470,11 +443,11 @@ Let us see how we can write a useful algorithm in python.
 
 **Problem**: Given a list of positive numbers, return the largest number on the list.
 
-**Inputs**: A list L of positive numbers. 
+**Inputs**: A list `L` of positive numbers. 
 
-This list must contain at least one number. (Asking for the largest number in a list of no numbers is not a meaningful question.)
+This list must contain at least one number. (Asking for the largest number in a list of 0 numbers is not a meaningful question.)
 
-**Outputs**: A number n, which will be the largest number of the list.
+**Outputs**: A number `n`, which will be the largest number of the list.
 
 Algorithm:
 
@@ -482,7 +455,12 @@ Algorithm:
 2. For each number `x` in the list `L`, compare it to `max`. If `x` is larger, set `max` to `x`.
 3. `max` is now set to the largest number in the list.
 
+
 Here is the Python implementation:
+
+<details>
+<summary>
+</summary>
 
 ```python
 def find_max(L):
@@ -492,6 +470,7 @@ def find_max(L):
             max = x
     return max
 ```
+</details>
 
 #### Discussion
 
@@ -620,22 +599,18 @@ Any new (unseen) patient can now be diagnosed using these rules.
 <a name="ind-practice2"></a>
 ## Independent Practice: Data Science Case Study (20 mins)
 
+Activity:
+
+Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. This model is created using *scikit-learn*. Can you understand the code? If so, can you implement it? Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! Afterwar, we'll come back and discuss this as a class.
+
 > Instructor Note:
+> Remind the students of what scikit-learn is used for, referring to the discussion from the [Guided Practice](#guided-practice1). Emphasize the importance of learning to look up documentation when they encounter something new!
+
+For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv).
+
+> Make sure to help students access a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). If they have trouble accessing on Github, use Dropbox and provide students with a link.
 > 
-> Activity
-> 
-> Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1) implement a decision tree algorithm using scikit-learn.
-> 
-> Remind the students of that scikit-learn is, from the discussion from [Guided Practice](#guided-practice1).
-> 
-> Provide a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv).
-> 
-> The notebook makes use of the Scikit-learn library. 
-> We have not had an opportunity to demo the library or the decision tree model. 
-> 
-> Therefore, we suggest providing the complete notebook and let the students work in pairs to run and discuss the code.
-> 
-> Bring the class together to explain the code and allow for questions.
+> Note: As a reminder, students have not had an opportunity to demo the library or the decision tree model yet. Therefore, provide them with the complete notebook and ask students to work in pairs to run and discuss the code. Then bring the class back together to explain the code and allow for questions.
 
 
 ***
@@ -661,9 +636,7 @@ In this workshop, we've covered the following topics:
 <a name="takeaway"></a>
 ## Takeaways: Learning Plan + Q&A (10 mins)
 
-> Instructor Note:
-> 
-> Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
+> Instructor Note: Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
 > 
 > Return to the student poll in the [Introduction](#intro1) and ask them what they want to do.
 > 
