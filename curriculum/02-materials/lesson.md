@@ -12,8 +12,8 @@ creator:
 *After this lesson, you will be able to:*
 
 - Explain the field of data science, defining common roles, benefits, and trends.
-- Explore some popular tools and resources to visualize,  analyse, and model data.
-- Recognise the different types of problems that can be solved by data scientists.
+- Explore some popular tools and resources to visualize,  analyze, and model data.
+- Recognize the different types of problems that can be solved by data scientists.
 - Apply the data science workflow to provide real world recommendations.
 - Create a custom learning plan to help you continue to build fundamental data science skills after this workshop.
 
@@ -36,9 +36,9 @@ creator:
 | 10 min  | [Opening](#opening)  | Greetings + The GA Experience  |
 | 10 min  | [Introduction and Guided Practice](#intro1)   | Why Data Science? What Can Data Science Do For Me? |
 | 5 min  | [Independent Practice](#ind-practice0)   | Data Science Skills|
-| 20 min  | [Demo](#demo1)  | Visualising the Data Science Workflow  |
+| 20 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
 | 20 min  | [Guided Practice](#guided-practice1)  | Exploring the Data Science Toolkit |
-| 20 min  | [Independent Practice](#ind-practice1)  | Analyse Some Data! |
+| 20 min  | [Independent Practice](#ind-practice1)  | Analyze Some Data! |
 | 5 min  | BREAK  |   |
 | 15 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
 | 15 min  | [Demo](#demo2)  | Algorithms in Action  |
@@ -68,7 +68,7 @@ Before we dive in, a bit about you!
 
 > Have students introduce themselves: name, what brings them to GA (ask for their current career & any specific goals), & one "fun fact".
 
-> **Example Exercise**: *Have students write these on google doc or google poll. Instructor can briefly demonstrate data science workflow by categorising data, merging into CSV file,  pulling out features, etc.*
+> **Example Exercise**: *Have students write these on a Google doc or in a Google poll. Instructor can briefly demonstrate data science workflow by categorizing data, merging into CSV file,  pulling out features, etc.*
 
 
 #### Our Expectations
@@ -77,7 +77,7 @@ Before we dive in, a bit about you!
 - You're curious and excited about data science!
 - You've installed [Anaconda with Python 2.7](https://www.continuum.io/downloads).
 
-> Instructor Note: Check that all laptops have a *Python 2.7* distribution. [Anaconda is the recommended distro](https://www.continuum.io/downloads).
+> Instructor Note: Check that all laptops have a *Python 2.7* distribution. [Anaconda is recommended](https://www.continuum.io/downloads).
 
 
 #### Our Objectives
@@ -86,10 +86,10 @@ Before we dive in, a bit about you!
 
 
 * What we’ll cover:
-	* Why Data Science & What it can do for me?
+	* Why Data Science & what it can do for me?
 	* Data Science skills
 	* Explore the Data Science Toolkit
-	* Analyse data
+	* Analyze data
 	* Algorithms in action
 * Why this topic matters:
 	* Data Science is a sought-after skill 
@@ -97,6 +97,7 @@ Before we dive in, a bit about you!
 * Why this topic rocks:
 	* Data Science opens up a door to a variety of opportunities
 	* Remember it has been dubbed the “Sexiest job of the 21st century”! 
+
 > Note: Tailor these points to student interests. Relate to their career info & goals students described during attendance.
 
 
@@ -114,7 +115,7 @@ Before we dive in, a bit about you!
 ### Guided Practice: Qualities of a data scientist
 
 - Programming skills
-- Maths and Stats knowledge
+- Math and statistics knowledge
 - Business acumen (substantive expertise)
 - Plus: Communication skills
 
@@ -125,7 +126,7 @@ Let's talk through the following questions as a group:
 - Can you think of any other quality/skill we have not mentioned?
 
 - What is your field of expertise?
-- Do you use tools such as Excel, Stata, R, Python?
+- Do you use tools such as Excel, Stata, R, or Python?
 - Where are you in the intersection of these skills?
 
 > Instructor Note: The discussion for this part of the lesson can be used to prompt the students to self-assess those areas where they are stronger/weaker. This will help with creating their "Learning Plan".
@@ -133,15 +134,15 @@ Let's talk through the following questions as a group:
 #### What can data science do for me?
 
 * Ask good questions: 
-	* what is required?
-	* how are results evaluated? (measures of success)
-	* what do we currently know? (existing data)
-	* what has happened? (descriptive analytics)
-	* what will happen (if)? (predictive analytics)
-	* what to do to achieve what we require? (insight)
-* Define and test a hypothesis. Run experiments
-* Scoop, scrap, sink and sample business relevant data
-* Manipulate, sanitise and wrestle data
+	* What is required?
+	* How are results evaluated? (measures of success)
+	* What do we currently know? (existing data)
+	* What has happened? (descriptive analytics)
+	* What will happen (if)? (predictive analytics)
+	* What to do to achieve what we require? (insight)
+* Define and test a hypothesis/run experiments
+* Scoop, scrap, sink, and sample business relevant data
+* Manipulate, sanitize, and wrestle data
 * Visualize data
 * Understand data relationships
 * Tell the machine how to learn from data
@@ -155,13 +156,13 @@ Let's talk through the following questions as a group:
 
 Create a table for the qualities of a data scientist and then rate yourself on each of these skills on a scale from 1-10. 
 
-We will then use the data to show how simple stats in action are part of the data science workflow.
+We will then use the data to show how simple statistics in action are part of the data science workflow.
 
 | Quality/Skill | Student 1 | Student 2 | ... | Average| 
 |:-:|---|---|---|---|
 | Programming | score 1 | score 2 | ... | Average| 
-| Maths | score 1 | score 2 | ... | Average| 
-| Stats | score 1 | score 2 | ... | Average| 
+| Math | score 1 | score 2 | ... | Average| 
+| Statistics | score 1 | score 2 | ... | Average| 
 
 > Instructor Note:
 > 
@@ -170,19 +171,19 @@ We will then use the data to show how simple stats in action are part of the dat
 ***
 
 <a name="demo1"></a>
-## Demo: Visualising the Data Science Workflow (20 mins)
+## Demo: Visualizing the Data Science Workflow (20 mins)
 
 Walk through the steps of the Data Science Workflow.
 
 > Instructor Note: 
 > 
-> Make sure to emphasise that the workflow is an iterative process and not necessarily a linear one.
+> Make sure to emphasize that the workflow is an iterative process and not necessarily a linear one.
 
 Data Science Workflow:
 
 * Identify the problem
 	* Identify business/product objectives
-	* Identify and hypothesise goals and criteria for success
+	* Identify and hypothesize goals and criteria for success
 	* Create a set of questions for identifying correct dataset
 * Acquire the data
 	* Identify the "right" dataset(s)
@@ -205,7 +206,7 @@ Data Science Workflow:
 	* Build model
 	* Evaluate and refine model
 * Present results
-	*  Summarise with narrative, storytelling techniques
+	*  Summarize with narrative, storytelling techniques
 	*  Present limitations and assumptions of your analysis
 	*  Identify follow up issues for future analysis
 *  Deploy and validate
@@ -213,7 +214,7 @@ Data Science Workflow:
 	*  Deploy stable production-ready code
 	*  Retrain and validate models over time
 
-### Demo: Visualising the Data Science Workflow
+### Demo: Visualizing the Data Science Workflow
 
 **_"What are the leading indicators that a user will make a new online purchase?"_** 
 
@@ -222,19 +223,17 @@ You are a junior data scientist at Amazon. Your boss asks you about the leading 
 - **Acquire Data**: What could we do first here? What are some considerations we should make?
 - **Parse Data**: What do you think this means? Why is it important?
 - **Mine and Refine**: Is the raw data enough? What calculations/transformation do you recommend doing? How do you determine the presence of outliers?
-- **Data model**: What attributes are would you include in the modelling stage? How do you know if the model is performing well?
-- **Results**: Who is your audience? What is the best way to present your results
+- **Data model**: What attributes would you include in the modelling stage? How do you know if the model is performing well?
+- **Results**: Who is your audience? What is the best way to present your results?
 
 Take 10 minutes to work with the person next to you and talk through answers to these questions. Then, we'll take 5 minutes at the end of this period to come back and discuss.
 
 
-> Instructor Note:
-> 
-> **Suggested Answer**
+> Instructor Note: **Suggested Answer**
 > 
 > You can walk the student through the example all together in class. Use the discussion points below. 
 > 
-> **Check:** By this point, students should be able to understand out specific actions related to the steps in the data science workflow. To assess this you can then break the class into group and tackle a similar problem in their groups and share their results with the class:
+> **Check:** By this point, students should be able to understand **specific** actions related to the steps in the data science workflow. To assess this, you can then break the class into group and tackle a similar problem in their groups and share their results with the class:
 > 
 >  * Collect data around user retention, user actions within the product, potentially find data outside of company
 > * Extract aggregated values from raw data
@@ -242,8 +241,8 @@ Take 10 minutes to work with the person next to you and talk through answers to 
 > 	* How often did they open up our emails?
 > * Examine data to find common distributions and correlations
 > * Extract new meaning to predict if user would purchase again
-> Share results via an interactive presentation with a Jupyter Notebook (and probably also go back to the drawing board)
-> 
+>
+>  * Share results via an interactive presentation with a Jupyter Notebook (and probably also go back to the drawing board)
 
 ***
 
@@ -257,36 +256,31 @@ Libraries of code written to solve particular set of problems
 In Python there are many related packages relevant to data science: pandas, Scikit-learn, NumPy, etc. Some widely-used packages include
 
 * pandas
-	* Ever used Excel? How do yo fancy working with data structured in a similar way, but without the irritation of formatting, long formulae and better graphics. Well, use *pandas*
+	* Ever used Excel? How would you like working with data structured in a similar way, but without the irritation of formatting, long formula, and better graphics? Well, use *pandas*.
 * SciPy/NumPy
-	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python
+	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors, or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python).
 * Scikit-Learn
-	* Are you interested in using python in a data science workflow and exploit the use of machine learning in your applications? Look no further than *Scikit-learn*
+	* Are you interested in using python in a data science workflow and exploiting the use of machine learning in your applications? Look no further than *Scikit-learn*.
 * matplotlib
-	* Are you tired of the boring-looking charts produced with Excel? Are you bored of looking for the write menu to move a label in your plot? Take a look at the visuals offered by *matplotlib* 	
+	* Are you tired of the boring-looking charts produced with Excel? Are you bored of looking for the right menu to move a label in your plot? Take a look at the visuals offered by *matplotlib*.
 * statsmodels: statistical tests
 	* Is your boss asking about significance testing and confidence intervals? Are you interested in descriptive statistics, statistical tests, plotting functions, and result statistics? Well *statsmodels* offers you that and more.
 * Beautiful Soup
-	* All the data you require is available freely on the web but there is no download button and *You* need to scrape the website? You can  extract data from HTML using *Beautiful soup*
+	* All the data you require is available freely on the web but there is no download button and *you* need to scrape the website. You can extract data from HTML using *Beautiful soup*.
 
-In this guided practice we are using a sample dataset, demonstrate how to carry out descriptive analytics using the `pandas` library we introduced above.
+In this guided practice we are using a sample dataset; demonstrate how to carry out descriptive analytics using the `pandas` library we introduced above.
 
-> Instructor Note:
-> 
-> IDE to be used
-> 
-> You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
+> Instructor Note: You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
 
 ### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
-> Instructor Note:
-> 
-> If you use Dropbox to get the material to your students follow these steps:
+Accessing Files via **DROPBOX**
+> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
 
 The Dropbox link provided has a Zip file with the materials for the class. 
 
-1. Unzip the file downloaded in a known location in yout file system
+1. Unzip the file downloaded in a known location in your file system
 2. Locate the file called [DataScience101_Part1_GuidedPractice.ipynb](./code/DataScience101_Part1_GuidedPractice.ipynb) 
 3. Open Jupyter: Open a terminal 
 
@@ -298,15 +292,14 @@ The Dropbox link provided has a Zip file with the materials for the class.
 5. Open the file from the Jupyter interface
 6. Voilà, you are ready to type the commands we will cover below
 
-> Instructor Note:
-> 
-> If you use GitHub to get the material to your students follow these steps:
+Accessing Files via **GITHUB**
+> Instructor Note: If you use GitHub to get the material to your students, follow these steps:
 
 To get a hold of the starter code, you'll need to download these materials.
 
 1. First, visit this page: [https://github.com/generalassembly-studio/data-science-101-cwe-materials](https://github.com/generalassembly-studio/data-science-101-cwe-materials)
 2. Then, click on the "Clone or Download" button, and click "Download ZIP"
-3. Unzip the file downloaded in a known location in yout file system
+3. Unzip the file downloaded in a known location in your file system
 4. Locate the file called [DataScience101_Part1_GuidedPractice.ipynb](./code/DataScience101_Part1_GuidedPractice.ipynb) 
 5. Open Jupyter: Open a terminal 
 
@@ -316,24 +309,20 @@ To get a hold of the starter code, you'll need to download these materials.
 	
 6. Navigate to the  folder where you have saved the file in step 3
 7. Open the file from the Jupyter interface
-8. Voilà, you are ready to type the commands we will cover below
+8. Voilà, you are ready to type the commands we will cover below!
 
 ***
 
 <a name="ind-practice1"></a>
-## Independent Practice: Analyse Some Data! (20 mins)
-> Instructor Note: 
+## Independent Practice: Analyze Some Data! (20 mins)
+> Instructor Note: Using a second dataset, ask the students to carry out similar analysis to the one demonstrated during the "Guided Practice".
 > 
-> Using a second dataset, ask the students to carry out similar analysis to the one demonstrated in during the "Guided Practice".
-> 
-> This can be a pair programming activity or done independently depending on the size of the class and on students abilities. 
-> 
-> In either case, make sure that discussion of the results is done with the entire class.
+> This can be a pair programming activity or done independently depending on the size of the class and on students' abilities. In either case, make sure that discussion of the results is done with the entire class.
 > 
 
 # Now You Try!
 
-You are a business intelligence manager at a fast moving startup that deals with flowers. You need to analyse some data for Iris flowers of three different species.
+You are a business intelligence manager at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
 
 You have received a sample data set with typical measures for the following three species for iris:
 
@@ -345,9 +334,7 @@ Let us use Python to perform some analytics that will help us differentiate the 
 
 ### Instructions for students
 
-> Instructor Note:
-> 
-> If you use Dropbox to get the material to your students follow these steps:
+> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
 
 The Dropbox link provided has a Zip file with the materials for the class. 
 
@@ -363,9 +350,7 @@ The Dropbox link provided has a Zip file with the materials for the class.
 5. Open the file from the Jupyter interface
 6. Voilà, you are ready to type the commands we will cover below
 
-Instructor Note:
-> 
-> If you use GitHub to get the material to your students follow these steps:
+> Instructor Note: If you use GitHub to get the material to your students follow these steps:
 
 To get a hold of the starter code, you'll need to download these materials.
 
@@ -382,34 +367,26 @@ To get a hold of the starter code, you'll need to download these materials.
 6. Voilà, you are ready to type the commands we will cover below
 
 > 
-> Instructor Note: 
-> 
-> **Solutions**
+> Instructor Note: **Solutions**
 > 
 > You can find a Jupyter notebook with solutions to the independent practice exercise in [DataScience101_Part1_IndPractice_Solutions.ipynb](./code/DataScience101_Part1_IndPractice_Solutions.ipynb)
 
 ***
 
-> **BREAK** (5 mins)
+**BREAK** (5 mins)
 
 ***
 
 <a name="intro2"></a>
 ## Introduction: What's an Algorithm, Anyway? (15 mins)
 
-> Instructor Note: 
-> 
-> Before re-starting the class, check for any questions the students may have about the first part of the workshop
-> 
+> Instructor Note: Before re-starting the class, check for any questions the students may have about the first part of the workshop.
 
 # Discussion
 
 ###_**What comes to mind when you hear the word algorithm?**_
 
-> Instructor Note:
-> 
-> Amass a list of different descriptions from students.
-> Use that to lead to the information below
+> Instructor Note: Amass a list of different descriptions from students. Use that to lead to the information below.
 
 *Algorithm*: A set of steps to accomplish a task.
 
@@ -417,16 +394,14 @@ Algorithms need to have their steps in the right order.
 
 Think about an algorithm for getting dressed in the morning. 
 
-- What if you put on your coat before your jumper? 
-	- Your jumper would be on top of your coat and that would be silly! 
+- What if you put on your coat before your shirt? 
+- Your shirt would be on top of your coat and that would be silly! 
 
-When you write an algorithm the order of the instructions is very important.
+When you write an algorithm, the order of the instructions is very important. In computer science, algorithms are a formal way of describing very precisely how to carry out certain computational tasks. 
 
-In computer science, algorithms are a formal way of describing very precisely how to carry out certain computational tasks. 
+Computers are very good at carrying out series of precisely defined instructions, and algorithms can be understood as formal description of computer programs. 
 
-Computers are very good at carrying out series of precisely defined instructions, and algorithms can be seen as formal description of computer programs. 
-
-#### Criteria of a good algorithm
+#### Criteria of a "good" algorithm
 
 * An algorithm is an **unambiguous description** that makes clear what has to be implemented. 
 	* In a recipe, a step such as “Bake until done” is ambiguous because it doesn’t explain what “done” means.
@@ -444,19 +419,17 @@ Data In -> Change -> New Data Out
 
 ### Discussion
 
-> Instructor Note:
-> 
-> Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task, e.g. make cheese on toast, commute to work, make a cup of tea.
-> Student need to break down steps into the smallest, discrete, sequential items etc
+> Instructor Note: Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task, e.g. making buttered toast, commuting to work, making a cup of coffee. Student need to break down steps into the smallest, discrete, sequential items, etc.
 
-What is the algorithm for:
+In groups, create an algorithm using *pseudocode* - or fake code that describes a series of tasks - for one of the following recipes:
 
-- Making cheese on toast
-- Commute to work
-- Make a cup of tea
-- Make a cake
+- Making buttered toast
+- Commuting to work
+- Making a cup of coffee
 
-Break down the steps into the smallest discrete, sequential items and think of the logical order in which things have to be done to achieve the task.
+Break down the steps into the smallest discrete, sequential items and think of the logical order in which things have to be done to achieve the task! 
+
+> Note: Afterward, ask groups to share their "algorithms" with another group or the rest of the class. See if other students can follow the directions precisely - what happens? Were all steps described successfully?
 
 
 ***
@@ -470,11 +443,11 @@ Let us see how we can write a useful algorithm in python.
 
 **Problem**: Given a list of positive numbers, return the largest number on the list.
 
-**Inputs**: A list L of positive numbers. 
+**Inputs**: A list `L` of positive numbers. 
 
-This list must contain at least one number. (Asking for the largest number in a list of no numbers is not a meaningful question.)
+This list must contain at least one number. (Asking for the largest number in a list of 0 numbers is not a meaningful question.)
 
-**Outputs**: A number n, which will be the largest number of the list.
+**Outputs**: A number `n`, which will be the largest number of the list.
 
 Algorithm:
 
@@ -482,7 +455,12 @@ Algorithm:
 2. For each number `x` in the list `L`, compare it to `max`. If `x` is larger, set `max` to `x`.
 3. `max` is now set to the largest number in the list.
 
+
 Here is the Python implementation:
+
+<details>
+<summary>
+</summary>
 
 ```python
 def find_max(L):
@@ -492,6 +470,7 @@ def find_max(L):
             max = x
     return max
 ```
+</details>
 
 #### Discussion
 
@@ -529,24 +508,24 @@ Yes. In a formal setting you would provide a careful proof of correctness. In th
 
 Machine learning is a branch of artificial intelligence. It is concerned with the construction and study of systems that can learn from data.
 
-The core of machine learning deals with representation and generalisation.
+The core of machine learning deals with representation and generalization.
 
 - Representation – extracting structure from data
-- Generalisation – making predictions from data
+- Generalization – making predictions from data
 
 **Machine learning problems**
 
-- **Supervised**: Making predictions (generalisation)
+- **Supervised**: Making predictions (generalization)
 
-For example, suppose you want to predict whether someone will make make a purchase the week after they visit your portal. 
+For example, suppose you want to predict whether someone will make a purchase the week after they visit your portal. 
 
 You have a set of data on previous customers, including age, interests, previous purchases, time of visit, etc. 
 
-You know whether the previous customers made a purchase within a week of their last visit. So, the problem is combining all the existing data into a model that can predict whether a new person will make a purchase with in a week.
+You know whether the previous customers made a purchase within a week of their last visit. So, the problem is combining all the existing data into a model that can predict whether a new person will make a purchase within a week.
 
 You can then take action and make an offer, or recommend a product. 
 
-Amazon, Netflix, and others do this based on the history of their existing customers
+Amazon, Netflix, and others do this based on the history of their existing customers.
 
 - Some supervised learning algorithms include:
 	- linear regression
@@ -563,7 +542,7 @@ Based on these attributes you can find similarities and differences that provide
 
 You can then take action and make an offer, or recommend a product specifically to these segments.
 
-- Some supervised learning algorithms include:
+- Some unsupervised learning algorithms include:
 	- clustering 
 	- anomaly detection
 	- principal component analysis
@@ -620,22 +599,18 @@ Any new (unseen) patient can now be diagnosed using these rules.
 <a name="ind-practice2"></a>
 ## Independent Practice: Data Science Case Study (20 mins)
 
+Activity:
+
+Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. This model is created using *scikit-learn*. Can you understand the code? If so, can you implement it? Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! Afterwar, we'll come back and discuss this as a class.
+
 > Instructor Note:
+> Remind the students of what scikit-learn is used for, referring to the discussion from the [Guided Practice](#guided-practice1). Emphasize the importance of learning to look up documentation when they encounter something new!
+
+For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv).
+
+> Make sure to help students access a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). If they have trouble accessing on Github, use Dropbox and provide students with a link.
 > 
-> Activity
-> 
-> Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1) implement a decision tree algorithm using scikit-learn.
-> 
-> Remind the students of that scikit-learn is, from the discusion from [Guided Practice](#guided-practice1)
-> 
-> Provide a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv) 
-> 
-> The notebook makes use of the Scikit-learn library. 
-> We have not had an opportunity to demo the library or the decision tree model. 
-> 
-> Therefore we suggest providing the complete notebook and let the students work in pairs to run and discuss the code.
-> 
-> Bring the class together to explain the code and allow for questions.
+> Note: As a reminder, students have not had an opportunity to demo the library or the decision tree model yet. Therefore, provide them with the complete notebook and ask students to work in pairs to run and discuss the code. Then bring the class back together to explain the code and allow for questions.
 
 
 ***
@@ -652,20 +627,18 @@ In this workshop, we've covered the following topics:
 - Why data science?
 - What can data science do for me?
 - The data science workflow
-- Analyse and visualise data using Python (pandas, matplotlib, NumPy, etc)
+- Analyze and visualize data using Python (pandas, matplotlib, NumPy, etc.)
 - Understand the role of algorithms and their relationship with machine learning
 - Understand the main concepts behind a decision tree to make predictions
 
 ***
 
 <a name="takeaway"></a>
-## Takeways: Learning Plan + Q&A (10 mins)
+## Takeaways: Learning Plan + Q&A (10 mins)
 
-> Instructor Note:
+> Instructor Note: Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
 > 
-> Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
-> 
-> Return to the student poll in the [Introduction](#intro1) and ask then what they want to do
+> Return to the student poll in the [Introduction](#intro1) and ask them what they want to do.
 > 
 > Suggest some resources such as books, podcasts, GA courses, etc.
 
@@ -674,7 +647,7 @@ In this workshop, we've covered the following topics:
 Remember the skills and qualities of a data scientist?
 
 - Programming skills
-- Maths and Stats knowledge
+- Math and statistics knowledge
 - Business acumen (substantive expertise)
 - Plus: Communication skills
 
