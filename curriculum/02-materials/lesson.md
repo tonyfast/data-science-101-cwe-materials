@@ -19,8 +19,8 @@ creator:
 
 ### STUDENT PRE-WORK
 *Before this lesson, you will need to:*
-- Bring a laptop with [Anaconda](https://www.continuum.io/downloads) installed. Scroll to your operating system version and click on the install button for ***Anaconda with Python 2.7***. Note: we'll be using Python version 2.7 in this workshop.
-- We will be using Jupyter Notebooks as the main IDE for the workshop. If you are using Anaconda (with Win, Mac or Linux) you are ready to go. 
+- Bring a laptop with [Anaconda](https://www.continuum.io/downloads) installed. Scroll to your operating system version and click on the install button for ***Anaconda with Python 2.7***. We'll be using Python version 2.7 in this workshop.
+- We will be using Jupyter Notebooks as our main IDE for the workshop. If you've downloaded Anaconda (with Win, Mac or Linux), you are ready to go! 
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -35,7 +35,7 @@ creator:
 |:-:|---|---|
 | 10 min  | [Opening](#opening)  | Greetings + The GA Experience  |
 | 10 min  | [Introduction and Guided Practice](#intro1)   | Why Data Science? What Can Data Science Do For Me? |
-| 5 min  | [Independent Practice](#ind-practice0)   | Data Science Skills|
+| 5 min  | [Independent Practice](#demo0)   | Data Science Skill Assessment |
 | 20 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
 | 20 min  | [Guided Practice](#guided-practice1)  | Exploring the Data Science Toolkit |
 | 20 min  | [Independent Practice](#ind-practice1)  | Analyze Some Data! |
@@ -54,30 +54,31 @@ creator:
 
 > Note: Let people know where restrooms and kitchen are located, as needed.
 
-- Welcome the students and find out about their interests
+Goals:
+- Welcome students and discover their interests
 - Review current lesson objectives
 
 #### Instructor Bio
 
 Welcome to Data Science 101! Here's a bit about me:
-> Provide your name and brief bio, including: your background in data science, any experience you've had with GA, and one "fun fact" about yourself.
+> Provide your name and brief bio, including things like: your background in data science, any experience you've had with GA, and one "fun fact" about yourself.
 
 #### Introduce Yourselves
 
-Before we dive in, a bit about you!
+Before we dive in, let's hear a bit about you!
 
 > Have students introduce themselves: name, what brings them to GA (ask for their current career & any specific goals), & one "fun fact".
 
-> **Example Exercise**: *Have students write these on a Google doc or in a Google poll. Instructor can briefly demonstrate data science workflow by categorizing data, merging into CSV file,  pulling out features, etc.*
+> **Example Exercise**: *Have students write these on a Google doc or in a Google poll. Instructor can briefly **demonstrate** data science by categorizing data, merging into CSV file,  pulling out features, etc.*
 
 
 #### Our Expectations
 
 - You're ready to take charge of your learning experience.
 - You're curious and excited about data science!
-- You've installed [Anaconda with Python 2.7](https://www.continuum.io/downloads).
+- You've already installed [Anaconda with Python 2.7](https://www.continuum.io/downloads).
 
-> Instructor Note: Check that all laptops have a *Python 2.7* distribution. [Anaconda is recommended](https://www.continuum.io/downloads).
+> Instructor Note: Check that all laptops have a *Python 2.7* distribution (materials for this workshop have not been tested against Python 3.x).
 
 
 #### Our Objectives
@@ -93,31 +94,32 @@ Before we dive in, a bit about you!
 	* Algorithms in action
 * Why this topic matters:
 	* Data Science is a sought-after skill 
-	* Using Python due to its increased popularity and simplicity
+	* Python as a core data science skill
 * Why this topic rocks:
-	* Data Science opens up a door to a variety of opportunities
-	* Remember it has been dubbed the “Sexiest job of the 21st century”! 
+	* Data Science opens up doors to a variety of opportunities
+	* Data Science has been dubbed the “Sexiest job of the 21st century”!
 
-> Note: Tailor these points to student interests. Relate to their career info & goals students described during attendance.
-
-
+> Note: Tailor any additional objectives to student interests. In general, reference student backgrounds and goals throughout the lesson. 
 ***
 
 <a name="intro1"></a>
-## Introduction: Why Data Science? What Can Data Science Do For Me? (15 mins - 5 min + 10 min)
+## Introduction: Why Data Science? What Can Data Science Do For Me? (15 mins)
 
-**Data Science**: A set of tools and techniques used to extract useful information from data.
+First, we should start with some basic definitions. Just what IS Data Science, Anyway?
+
+**Data Science**: A set of tools and techniques used to extract useful information from data!
 
 - An interdisciplinary, problem-solving oriented subject.
 - The application of scientific techniques to practical problems.
 - A rapidly growing field.
 
-### Guided Practice: Qualities of a data scientist
+#### Qualities of a data scientist
 
-- Programming skills
-- Math and statistics knowledge
-- Business acumen (substantive expertise)
-- Plus: Communication skills
+- Programming skills (Python or R)
+- Knowledgable in algebra and statistics (analyzing and modeling data)
+- Business acumen (how to work with stakeholders)
+- Industry expertise (for the type of field you're working within)
+- Communication skills (visualize data, tell stories)
 
 **Your Turn:**
 Let's talk through the following questions as a group: 
@@ -125,61 +127,69 @@ Let's talk through the following questions as a group:
 - What do you think are the most important qualities for a data scientist?
 - Can you think of any other quality/skill we have not mentioned?
 
+#### Question Time
 - What is your field of expertise?
-- Do you use tools such as Excel, Stata, R, or Python?
-- Where are you in the intersection of these skills?
+- Have you heard of or worked with tools such as Excel, R, or Python? 
+- What are your interests? What data would you want to work with?
 
-> Instructor Note: The discussion for this part of the lesson can be used to prompt the students to self-assess those areas where they are stronger/weaker. This will help with creating their "Learning Plan".
+> Instructor Note: The discussion for this part of the lesson can be used to prompt the students to self-assess areas where they are strong or weak. This will help them start to shape their "Learning Plan".
 
-#### What can data science do for me?
+#### What Can Data Science Do For Me?
 
-* Ask good questions: 
-	* What is required?
-	* How are results evaluated? (measures of success)
-	* What do we currently know? (existing data)
-	* What has happened? (descriptive analytics)
-	* What will happen (if)? (predictive analytics)
-	* What to do to achieve what we require? (insight)
+* Ask good questions! First and foremost, a data scientist asks a lot of questions. Such as:
+	* What is required? (understanding a problem)
+	* How are results evaluated? (measuring of success)
+	* What do we currently know? (reviewing existing data)
+	* What has happened? (applying descriptive analytics)
+	* What will happen (if)? (applying predictive analytics)
+	* What should we do to achieve what we require? (making recommendations)
+
+Here are some common tasks performed by data scientists:
+
 * Define and test a hypothesis/run experiments
-* Scoop, scrap, sink, and sample business relevant data
-* Manipulate, sanitize, and wrestle data
-* Visualize data
-* Understand data relationships
-* Tell the machine how to learn from data
-* Create data products that deliver actionable insight
+* Aquire relevant business data
+* Manipulate, clean, and organize data
+* Visualize data to understand relationships
+* Program algorithms to learn from that data
+* Create products from algorithms that deliver actionable insight
 * Tell relevant business stories from data
  
 ***
 
-<a name="ind-practice0"></a>
-## Independent Practice: Data Science Skills
+<a name="demo0"></a>
+## Independent Practice: Assess Your Data Science Skills
 
-Create a table for the qualities of a data scientist and then rate yourself on each of these skills on a scale from 1-10. 
+> Instructor note: For the following task, create a quick google doc and share with the class. Populate one column with the skills above. Ask students to use an "incognito" window in Chrome to anonymously self-report, creating a new column for their individual skill-assessment. 
 
-We will then use the data to show how simple statistics in action are part of the data science workflow.
+Let's do some quick and dirty data science. Here's a table with some of the basic data science skills we just reviewed.  
 
-| Quality/Skill | Student 1 | Student 2 | ... | Average| 
+Using a Chrome "incognito" browser window, create a column and give yourself an honest ranking for each skill. We will use this data to demonstrate some simple statistics as part of the data science workflow.
+
+Example:
+
+| Skill | Student 1 | Student 2 | ... | Average| 
 |:-:|---|---|---|---|
 | Programming | score 1 | score 2 | ... | Average| 
 | Math | score 1 | score 2 | ... | Average| 
 | Statistics | score 1 | score 2 | ... | Average| 
 
-> Instructor Note:
-> 
-> Check: With one minute left, have one student share their answer with the class.
+> Note: After students complete their entries, perform some quick summary statistics. Gauge the class to see how well they understand basic descriptive statistics. If you have time, try showing off a bit - pull the data into pandas, do some light regression, etc.
 
 ***
 
 <a name="demo1"></a>
 ## Demo: Visualizing the Data Science Workflow (20 mins)
 
-Walk through the steps of the Data Science Workflow.
+Next, we're going to walk through what we call the "Data Science Workflow". 
 
-> Instructor Note: 
-> 
-> Make sure to emphasize that the workflow is an iterative process and not necessarily a linear one.
+#### Workwhat? 
 
-Data Science Workflow:
+
+The data science workflow is basically a way of describing the approach most data scientists take when working on a project. It's not always this cut and dry, but in general, the process looks something like this:
+
+
+
+ButData Science Workflow:
 
 * Identify the problem
 	* Identify business/product objectives
