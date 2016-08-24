@@ -38,7 +38,8 @@ creator:
 | 5 min  | [Independent Practice](#demo0)   | Data Science Skill Assessment |
 | 20 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
 | 20 min  | [Introduction](#intro2)  | Exploring the Data Science Toolkit |
-| 20 min  | [Independent Practice](#ind-practice1)  | Analyze Some Data! |
+| 20 min  | [Guided Practice](#guided2)  | Explore Some Data! |
+| 10 min  | [Independent Practice](#ind-1)  | Practice Exploring Data |
 | 5 min  | BREAK  |   |
 | 15 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
 | 15 min  | [Demo](#demo2)  | Algorithms in Action  |
@@ -287,7 +288,7 @@ Here's a high level example of how we might walk through such a challenge:
 ***
 
 <a name="intro2"></a>
-## Introduction: Exploring the Data Science Toolkit (20 mins)
+## Introduction: Exploring the Data Science Toolkit (10 mins)
 
 Ok great. We've discussed some of the strategies a data scientist might apply when approaching a real world business problem. But how would you actually **DO** any of these steps?
 
@@ -310,53 +311,62 @@ Python is a great programming language for working with data. Here are just a fe
 - Python is well documented and has anestablished and growing community of supporters.
 - Finally, because Python comes with "batteries included", i.e. packages that help you do whatever you want!
 
-**Packages**
+#### What's a Package?
 
-Libraries of code written to solve particular set of problems
+Packages are libraries of code written to solve a particular set of problems. In other words, when you're working on a problem using Python, you hardly every have to start from scratch. There are tons of libraries and tools that can help you be more efficient.
 
-In Python there are many related packages relevant to data science: pandas, Scikit-learn, NumPy, etc. Some widely-used packages include
+Here are some extremely common packages relevant to data science: pandas, Scikit-learn, NumPy, etc.
 
 * pandas
-	* Ever used Excel? How would you like working with data structured in a similar way, but without the irritation of formatting, long formula, and better graphics? Well, use *pandas*.
+	* Ever used Excel? How would you like working with data structured in a similar way, but without the irritation of formatting, long formulas, and better graphics? Try *pandas*!
 * SciPy/NumPy
-	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors, or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python).
+	* Does your application require the use of advanced mathematical functions or numerical operations, using arrays, vectors, or matrices? Try *SciPy* (scientific python) or *NumPy* (numerical python).
 * Scikit-Learn
-	* Are you interested in using python in a data science workflow and exploiting the use of machine learning in your applications? Look no further than *Scikit-learn*.
+	* Are you interested in using python in a data science workflow and exploiting the use of machine learning in your applications? Well, look no further than *Scikit-learn*.
 * matplotlib
-	* Are you tired of the boring-looking charts produced with Excel? Are you bored of looking for the right menu to move a label in your plot? Take a look at the visuals offered by *matplotlib*.
-* statsmodels: statistical tests
-	* Is your boss asking about significance testing and confidence intervals? Are you interested in descriptive statistics, statistical tests, plotting functions, and result statistics? Well *statsmodels* offers you that and more.
+	* Are you tired of the boring-looking charts produced with Excel? Are you frustrated looking for the right menu to move a label in your plot? Take a peek at the visuals offered by *matplotlib*.
+* statsmodels
+	* Is your boss asking about significance testing and confidence intervals? Are you interested in statistical tests, plotting functions, and descriptive statistics? Well *statsmodels* offers you all that and more!
 * Beautiful Soup
-	* All the data you require is available freely on the web but there is no download button and *you* need to scrape the website. You can extract data from HTML using *Beautiful soup*.
+	* Let's face it, all the data you require is available freely on the web... but there's not always a download button. Luckily, you can extract data directly from HTML pages using *Beautiful soup*.
 
-In this guided practice we are using a sample dataset; demonstrate how to carry out descriptive analytics using the `pandas` library we introduced above.
+Check: So what are some common tools used by data scientists? Why are these useful?
 
-> Instructor Note: You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
 
-### Instructions for students
+<a name="guided2"></a>
+## Guided Practice: Exploring some Data (20 mins)
+
+In this guided practice, we'll explore a sample dataset to carry out some descriptive analytics using the `pandas` library.
+
+> Instructor Note: You should show the following commands and concepts using a **Jupyter notebook**. Open the [part 1 guided practice code and walk students through the notebook](./code/DataScience101_Part1_GuidedPractice.ipynb).
+
+#### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
-Accessing Files via **DROPBOX**
+#### Accessing Files
+
+**OPTION 1** - Accessing Files with **Dropbox**
 > Instructor Note: If you use Dropbox to get the material to your students follow these steps:
 
-The Dropbox link provided has a Zip file with the materials for the class. 
+The link provided has a Zip file with the materials for the class. 
 
 1. Unzip the file downloaded in a known location in your file system
 2. Locate the file called [DataScience101_Part1_GuidedPractice.ipynb](./code/DataScience101_Part1_GuidedPractice.ipynb) 
-3. Open Jupyter: Open a terminal 
+3. To start Jupyter: Open a terminal 
 
 	- **Mac**: Using spotlight search for "Terminal" 
 	- **Windows**: Click the "Start" button and type "cmd"
 	- In the terminal type: `jupyter notebook`
 	
-4. Navigate to the  folder where you have saved the file in step 1
+4. Navigate to the folder where you have saved the file in step 1
 5. Open the file from the Jupyter interface
-6. Voilà, you are ready to type the commands we will cover below
+6. Voilà, you are ready to go!
 
-Accessing Files via **GITHUB**
+
+**OPTION 2** - Accessing Files via **GITHUB**
 > Instructor Note: If you use GitHub to get the material to your students, follow these steps:
 
-To get a hold of the starter code, you'll need to download these materials.
+To get the starter code, you'll need to download these materials.
 
 1. First, visit this page: [https://github.com/generalassembly-studio/data-science-101-cwe-materials](https://github.com/generalassembly-studio/data-science-101-cwe-materials)
 2. Then, click on the "Clone or Download" button, and click "Download ZIP"
@@ -372,65 +382,33 @@ To get a hold of the starter code, you'll need to download these materials.
 7. Open the file from the Jupyter interface
 8. Voilà, you are ready to type the commands we will cover below!
 
+> Reminder: Once students have the notebooks, open the [part 1 guided practice code and walk through with the students](./code/DataScience101_Part1_GuidedPractice.ipynb).
+
 ***
 
-<a name="ind-practice1"></a>
-## Independent Practice: Analyze Some Data! (20 mins)
-> Instructor Note: Using a second dataset, ask the students to carry out similar analysis to the one demonstrated during the "Guided Practice".
-> 
-> This can be a pair programming activity or done independently depending on the size of the class and on students' abilities. In either case, make sure that discussion of the results is done with the entire class.
-> 
+<a name="ind-1"></a>
+## Independent Practice: Practice Exploring Data (10 mins)
 
-# Now You Try!
+> Instructor Note: Using a second dataset, ask the students to carry out a similar analysis. This can be a pair programming activity or done independently depending on the size of the class and on baseline abilities. In either case, make sure to discuss results with the entire class.
 
-You are a business intelligence manager at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
+## Now You Try!
 
-You have received a sample data set with typical measures for the following three species for iris:
+Let's assume you are a business intelligence manager at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
+
+You have received a sample data set with typical measures for the following three "iris" species:
 
 - Verginica
 - Setosa
 - Versicolor
 
-Let us use Python to perform some analytics that will help us differentiate the three species later on in the modelling part of our workflow.
+Let's use Python to perform some analytics that will help us differentiate between the three species.
 
-### Instructions for students
+#### Access Instructions
 
-> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
+Follow the same procedure from before to access materials, this time opening the file called [DataScience101_Part1_IndPractice.ipynb](./code/DataScience101_Part1_IndPractice.ipynb)
 
-The Dropbox link provided has a Zip file with the materials for the class. 
 
-1. Navigate to the location where you unzipped the file from the Dropbox link
-2. Locate the file called [DataScience101_Part1_IndPractice.ipynb](./code/DataScience101_Part1_IndPractice.ipynb)
-3. Open Jupyter: Open a terminal 
-
-	- **Mac**: Using spotlight search for "Terminal" 
-	- **Windows**: Click the "Start" button and type "cmd"
-	- In the terminal type: `jupyter notebook`
-	
-4. Navigate to the  folder where you have saved the file in step 2
-5. Open the file from the Jupyter interface
-6. Voilà, you are ready to type the commands we will cover below
-
-> Instructor Note: If you use GitHub to get the material to your students follow these steps:
-
-To get a hold of the starter code, you'll need to download these materials.
-
-1. Navigate to the location where you cloned or downloaded the GitHub repo for the class
-2. Locate the file called [[DataScience101_Part1_IndPractice.ipynb](./code/DataScience101_Part1_IndPractice.ipynb)
-3. Open Jupyter: Open a terminal 
-
-	- **Mac**: Using spotlight search for "Terminal" 
-	- **Windows**: Click the "Start" button and type "cmd"
-	- In the terminal type: `jupyter notebook`
-	
-4. Navigate to the folder where you have saved the file in step 1
-5. Open the file from the Jupyter interface
-6. Voilà, you are ready to type the commands we will cover below
-
-> 
-> Instructor Note: **Solutions**
-> 
-> You can find a Jupyter notebook with solutions to the independent practice exercise in [DataScience101_Part1_IndPractice_Solutions.ipynb](./code/DataScience101_Part1_IndPractice_Solutions.ipynb)
+> **Solutions**: You can find [a Jupyter notebook with solutions to the independent practice exercise here](./code/DataScience101_Part1_IndPractice_Solutions.ipynb).
 
 ***
 
