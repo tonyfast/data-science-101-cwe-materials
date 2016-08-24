@@ -719,8 +719,7 @@ However, to qualify for the course you'll need to brush up on some basic statist
 
 #### Q & A
 
-> Instructor Notes: 
-> Encourage the students to share any thoughts or questions before closing the session.
+> Instructor Note: Encourage the students to share any thoughts or questions before closing the session.
 
 ***
 
