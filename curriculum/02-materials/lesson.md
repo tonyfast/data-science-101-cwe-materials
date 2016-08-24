@@ -183,6 +183,7 @@ Example:
 Next, we're going to walk through what we call the "Data Science Workflow". 
 
 #### Workwhat? 
+> Instructor Note: Make sure to emphasize that the workflow is an iterative process and not necessarily a linear one.
 
 
 The data science workflow is basically a way of describing the approach most data scientists take when working on a project. It's not always this cut and dry, but in general, the process looks something like this:
