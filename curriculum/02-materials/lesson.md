@@ -382,26 +382,26 @@ To get the starter code, you'll need to download these materials.
 7. Open the file from the Jupyter interface
 8. Voilà, you are ready to type the commands we will cover below!
 
-> Reminder: Once students have the notebooks, open the [part 1 guided practice code and walk through with the students](./code/DataScience101_Part1_GuidedPractice.ipynb).
+> Reminder: Once students have the notebooks, open the [guided practice code for part 1](./code/DataScience101_Part1_GuidedPractice.ipynb) and walk through it with the students.
 
 ***
 
 <a name="ind-1"></a>
 ## Independent Practice: Practice Exploring Data (10 mins)
 
-> Instructor Note: Using a second dataset, ask the students to carry out a similar analysis. This can be a pair programming activity or done independently depending on the size of the class and on baseline abilities. In either case, make sure to discuss results with the entire class.
+> Instructor Note: Using a second dataset, ask the students to carry out a similar analysis. This should be a pair programming activity, depending on the size of the class and on baseline abilities. Make sure to discuss results with the entire class afterward.
 
 ## Now You Try!
 
-Let's assume you are a business intelligence manager at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
+First, let's get into pairs. Now let's assume you are a both business intelligence managers at a fast moving startup breaking into the flower delivery space. You need to analyze some data for iris flowers of three different species.
 
-You have received a sample data set with typical measures for the following three "iris" species:
+You've received a sample dataset for the following three "iris" species:
 
 - Verginica
 - Setosa
 - Versicolor
 
-Let's use Python to perform some analytics that will help us differentiate between the three species.
+Your job is to use some basic Python (and hint: Pandas) to help your company differentiate between the three species.
 
 #### Access Instructions
 
