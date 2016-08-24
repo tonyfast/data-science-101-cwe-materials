@@ -37,7 +37,7 @@ creator:
 | 10 min  | [Introduction and Guided Practice](#intro1)   | Why Data Science? What Can Data Science Do For Me? |
 | 5 min  | [Independent Practice](#demo0)   | Data Science Skill Assessment |
 | 20 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
-| 20 min  | [Guided Practice](#guided-practice1)  | Exploring the Data Science Toolkit |
+| 20 min  | [Introduction](#intro2)  | Exploring the Data Science Toolkit |
 | 20 min  | [Independent Practice](#ind-practice1)  | Analyze Some Data! |
 | 5 min  | BREAK  |   |
 | 15 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
@@ -182,15 +182,12 @@ Example:
 
 Next, we're going to walk through what we call the "Data Science Workflow". 
 
-#### Workwhat? 
+#### Work-what? 
 > Instructor Note: Make sure to emphasize that the workflow is an iterative process and not necessarily a linear one.
 
+The data science workflow is a way of describing the approach that *most* data scientists take when working on a project. It's not always cut and dry, but in general, the process looks something like this:
 
-The data science workflow is basically a way of describing the approach most data scientists take when working on a project. It's not always this cut and dry, but in general, the process looks something like this:
-
-
-
-ButData Science Workflow:
+![](./data-science-workflow-example.jpeg)
 
 * Identify the problem
 	* Identify business/product objectives
@@ -225,40 +222,93 @@ ButData Science Workflow:
 	*  Deploy stable production-ready code
 	*  Retrain and validate models over time
 
-### Demo: Visualizing the Data Science Workflow
+#### Applying the Data Science Workflow
 
-**_"What are the leading indicators that a user will make a new online purchase?"_** 
+Let's take a business problem and think about how we would apply our new workflow. Let's assume that you are a junior data scientist at Amazon. Your boss asks you to identify the leading indicators that suggest a user is about to make a new online purchase. How would you go about solving this question?
 
-You are a junior data scientist at Amazon. Your boss asks you about the leading indicators that a user will make a new online purchase. How would you go about solving this question?
+**The Question:** "What are the leading indicators that a user is about to make a new online purchase?"
 
-- **Acquire Data**: What could we do first here? What are some considerations we should make?
-- **Parse Data**: What do you think this means? Why is it important?
-- **Mine and Refine**: Is the raw data enough? What calculations/transformation do you recommend doing? How do you determine the presence of outliers?
-- **Data model**: What attributes would you include in the modelling stage? How do you know if the model is performing well?
-- **Results**: Who is your audience? What is the best way to present your results?
+ChecK: How would we go about solving this question?
 
-Take 10 minutes to work with the person next to you and talk through answers to these questions. Then, we'll take 5 minutes at the end of this period to come back and discuss.
+> Note: Don't answer for them! Let them think about it. Table any incorrect responses. Once they generate something from the workflow, write it down on the board as part of the sequence.
 
+> * Identify the problem
+	* Identify business/product objectives
+	* Identify and hypothesize goals and criteria for success
+	* Create a set of questions for identifying correct dataset
+* Acquire the data
+	* Identify the "right" dataset(s)
+	* Import data and set up local or remote data structure
+	* Determine most appropriate tools to work with data
+* Parse the data
+	* Read any documentation provided with the data
+	* Perform exploratory data analysis
+	* Verify the quality of the data
+* Mine the data
+	* Determine sampling methodology and sample data
+	* Format, clean, slice and combine data (in Python)
+	* Create necessary derived columns from the data (new data)
+* Refine the data
+	* Identify trends and outliers
+	* Apply descriptive and inferential stats
+	* Document and transform data
+* Build a data model
+	* Select appropriate model
+	* Build model
+	* Evaluate and refine model
+* Present results
+	*  Summarize with narrative, storytelling techniques
+	*  Present limitations and assumptions of your analysis
+	*  Identify follow up issues for future analysis
+*  Deploy and validate
+	*  Write unit tests and documentation
+	*  Deploy stable production-ready code
+	*  Retrain and validate models over time
 
-> Instructor Note: **Suggested Answer**
-> 
-> You can walk the student through the example all together in class. Use the discussion points below. 
-> 
-> **Check:** By this point, students should be able to understand **specific** actions related to the steps in the data science workflow. To assess this, you can then break the class into group and tackle a similar problem in their groups and share their results with the class:
-> 
->  * Collect data around user retention, user actions within the product, potentially find data outside of company
-> * Extract aggregated values from raw data
-> 	* How many times did a user share through Facebook within a week? A month?
-> 	* How often did they open up our emails?
-> * Examine data to find common distributions and correlations
-> * Extract new meaning to predict if user would purchase again
->
->  * Share results via an interactive presentation with a Jupyter Notebook (and probably also go back to the drawing board)
+> If students are stumped or get stuck, break them into smaller groups and challenge them to define the steps and come up with some guiding questions for each step. Then discuss the process as a class.
+
+Here's a high level example of how we might walk through such a challenge:
+
+- **Identify Problem**: What is our problem? What is our goal? Do we understand these correctly?
+- **Acquire Data**: What could we do first here? What are some considerations we should make? 
+- **Parse Data**: Ok, you've collected some data. Now what?
+- **Mine / Refine**: Is the raw data enough? What would you need to do next?
+- **Model**: Sure, you've built a nice model. But does it work? How would you know?
+- **Present**: Think back to the original question. What do you think your boss wants to see?
+
+> Instructor Note: Here are some suggested talking points you could review. Again, focus the discussion on high level strategy until students are comfortable. Don't spend a lot of time on specific techniques unless your class is comfortable with math/stats:
+* Collect data around user retention, user actions within the product, potentially find data outside of company
+* Extract aggregated values from raw data
+  * How many times did a user share through social media? Within what time frame?
+  * How often did they open emails or click on advertisements?
+* Examine data to find common distributions and correlations
+* Extract new meaning to predict if user would purchase again
 
 ***
 
-<a name="guided-practice1"></a>
-## Guided Practice: Exploring the Data Science Toolkit (20 mins)
+<a name="intro2"></a>
+## Introduction: Exploring the Data Science Toolkit (20 mins)
+
+Ok great. We've discussed some of the strategies a data scientist might apply when approaching a real world business problem. But how would you actually **DO** any of these steps?
+
+In order to answer that question, let's review some common tools used by Data Scientists.
+
+**Code**
+
+While data science is a relatively new field, math and statistics have been around for a while. In fact, most early data scientists were trained as statisticians. But the world of programming opened up new ways to work with data, using code to perform repetitive tasks quickly and efficiently. That's why most modern data scientists combine both math and programming skills to solve problems.
+
+There are lots of programming languages out there, but we're going to be focusing on **Python**.
+
+> Note: Feel free to add in R or other elements here, but the focus should be on how they compare or relate to Python, and why Python is so widely used.
+
+Python is a great programming language for working with data. Here are just a few reasons why it's so popular today:
+
+- Python is extremely fun to develop in! It's fast and highly expressive.
+- Python code is an elegant, highest level object-oriented language.
+- Everything can be done with Python! And if something can't be done, you can easily create an extension for it :)
+- Everything can not only be done, but it can be done quickly! For example, a program that takes you weeks in C++ might only take you a day to write in Python.
+- Python is well documented and has anestablished and growing community of supporters.
+- Finally, because Python comes with "batteries included", i.e. packages that help you do whatever you want!
 
 **Packages**
 
