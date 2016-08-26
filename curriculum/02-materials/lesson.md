@@ -190,7 +190,7 @@ Next, we're going to walk through what we call the "Data Science Workflow".
 
 The data science workflow is a way of describing the approach that *most* data scientists take when working on a project. It's not always cut and dry, but in general, the process looks something like this:
 
-![](./data-science-workflow-example.jpeg)
+![](./code/data-science-workflow-example.jpg)
 
 * Identify the problem
 	* Identify business/product objectives
