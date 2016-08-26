@@ -41,12 +41,14 @@ creator:
 | 20 min  | [Guided Practice](#guided2)  | Explore Some Data! |
 | 10 min  | [Independent Practice](#ind-1)  | Practice Exploring Data |
 | 5 min  | BREAK  |   |
-| 15 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
+| 10 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
 | 15 min  | [Demo](#demo2)  | Algorithms in Action  |
-| 20 min  | [Guided Practice](#guided-practice2)  | Thinking Logically  |
+| 10 min  | [Introduction](#intro3)  | Algorithms & Machine Learning  |
+| 15 min  | [Guided Practice](#guided-practice2)  | Thinking Logically  |
 | 20 min  | [Independent Practice](#ind-practice2)  | Data Science Case Study |
 | 10 min  | [Conclusion](#conclusion) | Review + Recap |
 | 10 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
+
 
 ---
 
@@ -417,58 +419,72 @@ Follow the same procedure from before to access materials, this time opening the
 ***
 
 <a name="intro2"></a>
-## Introduction: What's an Algorithm, Anyway? (15 mins)
+## Introduction: What's an Algorithm, Anyway? (10 mins)
 
 > Instructor Note: Before re-starting the class, check for any questions the students may have about the first part of the workshop.
 
-# Discussion
+## Discussion
 
-###_**What comes to mind when you hear the word algorithm?**_
+What comes to mind when you hear the word **algorithm?**
 
-> Instructor Note: Amass a list of different descriptions from students. Use that to lead to the information below.
+> Instructor Note: Write down descriptions on the whiteboard. Goal is to amass a list of different descriptions from students, then use that to lead to the information below.
 
-*Algorithm*: A set of steps to accomplish a task.
+#### Definition:
 
-Algorithms need to have their steps in the right order.
+1. *Algorithm*: A set of steps to accomplish a task. 
+2. Algorithms provide instructions for processing these steps in a particular order.
 
-Think about an algorithm for getting dressed in the morning. 
+#### Exercise: Let's create an algorithm for getting dressed in the morning:
 
-- What if you put on your coat before your shirt? 
-- Your shirt would be on top of your coat and that would be silly! 
+What would come first? Second? 
+But wait, does order matter?
 
-When you write an algorithm, the order of the instructions is very important. In computer science, algorithms are a formal way of describing very precisely how to carry out certain computational tasks. 
+- What if you put on your shoes before your socks? 
+- What if you put on your jacket before your shirt?
 
-Computers are very good at carrying out series of precisely defined instructions, and algorithms can be understood as formal description of computer programs. 
+When you write an algorithm, **the order of the instructions is very important**. In computer science, algorithms are a formal set of instructions for carrying out series of precisely defined tasks.
+
+And guess what? Computers are *very good* at carrying out series of precisely defined tasks.
 
 #### Criteria of a "good" algorithm
 
-* An algorithm is an **unambiguous description** that makes clear what has to be implemented. 
-	* In a recipe, a step such as “Bake until done” is ambiguous because it doesn’t explain what “done” means.
-	* A more explicit description such as “Bake until the cheese begins to bubble” is better. 
-	* In a computational algorithm, a step such as “Choose a large number” is vague: what is large? 1 million, 1 billion, or 100? Does the number have to be different each time, or can the same number be used on every run?
-* An algorithm expects a defined set of **inputs**. For example, it might require two numbers where both numbers are greater than zero. Or it might require a word, or a list of zero or more numbers.
-* An algorithm produces a defined set of **outputs**. It might output the larger of the two numbers, an all-uppercase version of a word, or a sorted version of the list of numbers.
-* An algorithm is **guaranteed to terminate** and **produce a result**, always stopping after a finite time. If an algorithm could potentially run forever, it wouldn’t be very useful because you might never get an answer.
+A. **Unambiguous**: An algorithm is an **unambiguous description** that makes clear what has to be implemented. For example, consider the following recipes:
 
-We can condense some of this information as follows:
+- Recipe 1: Put food in oven. Turn on. Bake until done.
+- Recipe 2: Open oven tray, place food on tray, withdraw hand, close oven. Set oven to 375 on timer for approximately 10 minutes.
 
+Similarly, in a computational algorithm, a step such as “Choose a large number” is too vague. How does the computer know what "large" is? Does the number have to be different each time, or can the same number be used every time?
+
+B. **Definitions**: A good algorithm clearly defines a set of inputs. For example, it might require two numbers where both numbers are greater than zero. Or it might require a word, or a list of zero or more numbers. An algorithm also produces a defined set of **outputs**. It might output the larger of the two numbers, an all-uppercase version of a word, or a sorted version of the list of numbers. Constraints and criteria for both **inputs** and **outputs** need to be defined.
+
+C. **Constraints**: A good algorithm must be defined so that it terminates after a set period or as the result of a set output. An algorithm that isn't explicitly told this could potentially run forever, which wouldn’t be very useful - you might never get an answer!
+
+
+> Check: What are the criteria of a good algorithm? Why are these important?
+
+At its simplest, an algorithm is a model that takes in specifically defined data and transforms it following a series of clearly defined instructions, generating a clearly defined output that fulfills some termination criteria. 
+
+> EXAMPLE OVER-SIMPLIFIED ON PURPOSE
 ```
-Data In -> Change -> New Data Out
+Data In -> Change! -> New Data Out
 ```
 
-### Discussion
+#### Discussion
 
-> Instructor Note: Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task, e.g. making buttered toast, commuting to work, making a cup of coffee. Student need to break down steps into the smallest, discrete, sequential items, etc.
+> Instructor Note: Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task. Students should break down these steps into the smallest, discrete, sequential items.
 
-In groups, create an algorithm using *pseudocode* - or fake code that describes a series of tasks - for one of the following recipes:
+Let's put this into practice! Get into groups and create your own algorithm using *pseudocode*. In other words, your group will write down a series of steps using "fake code" that simply outlines the logic for an everyday task. Choose your own task and create your own algorithm, remembering to include all the criteria above!
 
-- Making buttered toast
+Example Group Topics:
+- Making breakfast
 - Commuting to work
-- Making a cup of coffee
+- Brewing a cup of coffee
+- Brushing teeth
 
-Break down the steps into the smallest discrete, sequential items and think of the logical order in which things have to be done to achieve the task! 
 
-> Note: Afterward, ask groups to share their "algorithms" with another group or the rest of the class. See if other students can follow the directions precisely - what happens? Were all steps described successfully?
+Remember to break down your steps into the smallest discrete, logically sequential items you can think of!
+
+> Note: Afterward, ask groups to share their "algorithms" with the rest of the class. Ask if other students can follow the directions precisely - what happens? Were all steps described successfully?
 
 
 ***
@@ -476,19 +492,25 @@ Break down the steps into the smallest discrete, sequential items and think of t
 <a name="demo2"></a>
 ## Demo: Algorithms in Action (15 mins)
 
-Let us see how we can write a useful algorithm in python.
+Now that you've got a good understanding of what an algorithms **IS**, we'll look at how to write one in Python.
 
-#### An Example Algorithm
+> Check: Based on what you've learned about Python so far, why do you think Python is might be good for writing algorithms?
+
+
+#### Sketching Algorithms in Pseudocode
 
 **Problem**: Given a list of positive numbers, return the largest number on the list.
 
-**Inputs**: A list `L` of positive numbers. 
+**Inputs**: A list `L` of positive numbers. This list **must** contain at least one number. 
 
-This list must contain at least one number. (Asking for the largest number in a list of 0 numbers is not a meaningful question.)
+> Check: Why? Because asking for the largest number in a list of 0 numbers is not a meaningful question :)
 
 **Outputs**: A number `n`, which will be the largest number of the list.
 
-Algorithm:
+
+> Check: How would we go about this? What do you think this would look like?
+
+#### Example:
 
 1. Set the variable `max` to 0.
 2. For each number `x` in the list `L`, compare it to `max`. If `x` is larger, set `max` to `x`.
@@ -496,10 +518,6 @@ Algorithm:
 
 
 Here is the Python implementation:
-
-<details>
-<summary>
-</summary>
 
 ```python
 def find_max(L):
@@ -509,7 +527,6 @@ def find_max(L):
             max = x
     return max
 ```
-</details>
 
 #### Discussion
 
@@ -524,9 +541,9 @@ Yes. Each step of the algorithm consists of primitive operations, and translatin
 
 <details>
 <summary>
-* Does it have defined inputs and outputs? 
+* Does it have defined inputs and outputs? What are they?
 </summary>
-Yes.
+Yes. X and L
 </details>
 
 <details>
@@ -540,98 +557,110 @@ Yes. The list L is of finite length, so after looking at every element of the li
 <summary>
 * Does it produce the correct result? 
 </summary>
-Yes. In a formal setting you would provide a careful proof of correctness. In the next section I’ll sketch a proof for an alternative solution to this problem.
+Yes. In a formal setting you would also provide a careful proof of correctness.
 </details>
 
-### Algorithms in the context of Machine Learning
 
-Machine learning is a branch of artificial intelligence. It is concerned with the construction and study of systems that can learn from data.
+<a name="intro3"></a>
+## Algorithms in the context of Machine Learning (10 min)
+
+Python algorithms are the ingredients in **machine learning**, which is at the heart of data science. Machine learning is a branch of artificial intelligence concerned with the construction and study of systems that can learn from data. In other words, systems (of algorithms!) that take in data, transform it, and can make decisions based on the outputs.
 
 The core of machine learning deals with representation and generalization.
 
-- Representation – extracting structure from data
-- Generalization – making predictions from data
+- **Representation**: *extracting structure* from data. Much like a puzzle, data typically has to be cleaned, filtered, and reorganized before it can present a complete picture.
+- **Generalization**: *making predictions* from data. In other words, looking for statistically significant patterns and trends that can used to inform future behavior. 
 
-**Machine learning problems**
 
-- **Supervised**: Making predictions (generalization)
+#### Types of Machine Learning Problems
 
-For example, suppose you want to predict whether someone will make a purchase the week after they visit your portal. 
+As you can imagine, there are many different ways to apply machine learning to real world problems. These depend on the types of data and types of problems involved, but generally, machine learning problems fall into a few categories:
 
-You have a set of data on previous customers, including age, interests, previous purchases, time of visit, etc. 
+#### **Supervised Learning Problems**: Making predictions (generalization)
 
-You know whether the previous customers made a purchase within a week of their last visit. So, the problem is combining all the existing data into a model that can predict whether a new person will make a purchase within a week.
+For example, suppose you want to predict whether someone will make a purchase the week after they visit your site. You have a set of data on previous customers, including age, interests, previous purchases, time of visit, etc. 
 
-You can then take action and make an offer, or recommend a product. 
+You know whether the previous customers made a purchase within a week of their last visit. So, the problem is combining all the existing data into a model that can accurately predict whether a *new* person will make a purchase within a week or not.
 
-Amazon, Netflix, and others do this based on the history of their existing customers.
+Based on that prediction, you might then take action and send them a reminder or suggest a discount, etc.
 
-- Some supervised learning algorithms include:
-	- linear regression
-	- decision trees 
-	- neural networks 
+> Check: Can you think of any companies that do something like this?
 
-- **Unsupervised**: Extracting structure (representation)
+Amazon, Netflix, and many others use this very data - customer history - to make predictions that inform their actions.
 
-For example, suppose you want to understand your customer base so that you can produce appropriate segments that you can target with your next marketing campaign. You may not know what the main characteristics to use.
+Supervised learning is a big category of machine learning that includes tons of different kinds of algorithms, including:
+ - linear regression (remember high school algebra?)
+ - decision trees (think of an organized flowchart)
+ - neural networks (as in, artificial intelligence)
 
-You have a set of data about your customers, including age, location, previous purchases, time of visit, etc. 
+However, before you can make predictions on your data, sometimes you need to sort and analyze that data. That's where the category of unsupervised learning problems comes in.
 
-Based on these attributes you can find similarities and differences that provide groupings (segments) of customers.
+#### **Unsupervised Learning Problems**: Extracting structure (representation)
 
-You can then take action and make an offer, or recommend a product specifically to these segments.
+Suppose you want to better understand your customer base so that you can produce appropriate segments to target during your next marketing campaign.
 
-- Some unsupervised learning algorithms include:
+You have a set of data about your customers, including age, location, previous purchases, time of visit, etc - but you don't know which set of characteristics you should focus on, or how they relate together. You want to sort this data in order to segment your customers into groups, in order to provide them with specifically tailored messaging.
+
+In order to create these groups, you would need to **extract structure** from this data to identify similarities and differences. You could then take action and make them an offer or recommend a product!
+
+> Check: Can you think of any companies that do something like this? Hint: anyone trying to sell you anything :)
+
+Some popular unsupervised learning algorithms include:
 	- clustering 
 	- anomaly detection
 	- principal component analysis
 
+> Check: Let's recap! What do we mean when we talk about "machine learning?" What is the difference between supervised and unsupervised learning? How do these solve different problems?
+
 ***
 
 <a name="guided-practice2"></a>
-## Guided Practice: Thinking Logically (20 mins)
+## Guided Practice: Thinking Logically (15 mins)
 
-> Instructor Note: Run through the example with the students and ask them to draw a decision tree based on the  "business rules" below in plain English (you can also show pseudo-code).
-> 
+All right. So far you've learned about algorithms, pseudocode, and machine learning at a high level. Now let's practice putting some of these elements together. 
 
-We just reviewed types of machine learning models at a high level. 
+> Instructor Note: Run through the example and ask students to draw a decision tree based on the "business rules" below, in pseudocode.
 
-We mentioned decision trees in the context of supervised learning. 
+Let's review the following example and apply a type of *supervised* learning model called a "decision tree" to generalize and make predictions:
 
-- Do you remember what  a supervised learning model is again?
-- Why are they called "trees"?
+#### EXAMPLE
 
+During a doctor's examination, some patients show the following symptoms:
 
-### **EXAMPLE**
-
-During a doctor's examination some patients show the following characteristics:
-
+```
 	X1: temperature
 	X2: coughing
 	X3: reddening throat
+```
 
-The doctor has the following outcomes for the patients:
+The doctor suggests the following `Y` outcomes for the patients:
 
-	Y = {W1, W2, W3, W4, W5}
+```
 	W1: cold
 	W2: tonsillitis
 	W3: flu
 	W4: pneumonia
 	W5: healthy
+```
 
-The doctor is required to find a diagnosis bases on the symptoms presented by the patient. 
+The doctor is required to find a diagnosis for `Y` based on the symptoms `X` presented by the patient. We can understand the range of possible outcomes as `Y = {W1, W2, W3, W4, W5}`.
 
-In data science terms, the doctor requires a model where `Y` (the diagnosis) depends on `X` (the symptoms). 
+Check: What rules do you think we could come up with to explain these different possible outcomes? Don't worry about writing real code, just work through it logically.
 
+<summary>
+<details>
 The rules below illustrate such a model:
 
-1. If `X1 < 37` , `Y`="is healthy".
-2. If `X1` has values between `[37,38.5]` and `X3`="there is no reddening of throat", then `Y`="cold";
-3. If `X1` has values between `[37,38.5]` and `X3`="there is reddening of throat", then `Y`="tonsillitis";
-4. If `X1 > 38.5` and `X2`="there is no cough", then `Y=`"flu";
-5. If `X1 > 38.5` and `X2`="there is cough", then `Y`="pneumonia";
+1. If `X1 < 98` , `Y`="is healthy".
+2. If `X1` has values between `[98]` and `102`="there is no reddening of throat", then `Y`="cold";
+3. If `X1` has values between `[98]` and `102`="there is reddening of throat", then `Y`="tonsillitis";
+4. If `X1 > 100` and `X2`="there is no cough", then `Y=`"flu";
+5. If `X1 > 100` and `X2`="there is cough", then `Y`="pneumonia";
 
 Any new (unseen) patient can now be diagnosed using these rules.
+</details>
+</summary>
+
 
 ***
 
