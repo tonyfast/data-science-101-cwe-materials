@@ -667,22 +667,30 @@ Using these rules, we can not only describe the current patients, we can also ap
 ***
 
 <a name="ind-practice2"></a>
-## Independent Practice: Data Science Case Study (20 mins)
+## Independent Practice: Data Science Case Study (10-20 mins, if time)
+
+> **ALERT**: The following activity is intended for more advanced student audiences who want additional practice with real world data science examples. For advance students, conduct this exercise as an independent practice. Break the class into equal groups, then pair up within those groups and have them review the notebook. Their goal should be to reference the scikit-learn documentation to understand how the code creates a decision tree from the iris dataset. Afterward, they should explain their analysis to their groups, then come up with questions for the class.
+
+> For novice students, conduct this exercise as a **guided pracice** and walk them through it as a class. Break them into groups and ask them to use documentation to *successfully identify decision trees in python* in the attached notebook, making sure to assist each group. Demo your explanation to the class as needed.
+
 
 Activity:
 
-Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. This model is created using *scikit-learn*. Can you understand the code? If so, can you implement it? Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! 
+Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. 
 
-Afterward, we'll come back and discuss this as a class.
+This model is created using *scikit-learn*, a common python package used for machine learning. Your goal is to review the code in the notebook and successfully identify how it implements a decision tree algorithm. 
 
-> Instructor Note: Remind the students of what scikit-learn is used for, referring to the discussion from the [Guided Practice](#guided-practice1). Emphasize the importance of learning to look up documentation when they encounter something new!
+Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! Afterward, we'll come back and review it as a class.
 
-For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv).
+For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). Refer to the instructions from earlier to access these materials.
 
-> Make sure to help students access a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). If they have trouble accessing on Github, use Dropbox and provide students with a link.
 
-> Note: As a reminder, students have not had an opportunity to demo the library or the decision tree model yet. Therefore, provide them with the complete notebook and ask students to work in pairs to run and discuss the code. Then bring the class back together to explain the code and allow for questions.
+> Note: If students are having trouble getting started, make sure to emphasize the importance of learning to look up documentation when they encounter something new. After all, this is a key skill for any good data scientist! Ask them to work at it for at least 5 minutes.
 
+> If they are still having trouble, stop and demo the code, walking through one example of the decision tree node, in order to give them a reference to start from.
+
+Afterward, discuss your observations with your group. Can you explain what this code is doing? Can you describe how this algorithm works? 
+> Note: Make sure to leave time for plenty of questions!
 
 ***
 
