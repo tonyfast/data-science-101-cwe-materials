@@ -645,7 +645,9 @@ The doctor suggests the following `Y` outcomes for the patients:
 
 The doctor is required to find a diagnosis for `Y` based on the symptoms `X` presented by the patient. We can understand the range of possible outcomes as `Y = {W1, W2, W3, W4, W5}`.
 
-Check: What rules do you think we could come up with to explain these different possible outcomes? Don't worry about writing real code, just work through it logically.
+What rules do you think we could come up with to explain these different possible outcomes? Don't worry about writing real code, just work through it logically.
+
+> Check: Ask students to work in pairs and come up with 2-3 examples, then review as a class.
 
 <summary>
 <details>
@@ -657,10 +659,10 @@ The rules below illustrate such a model:
 4. If `X1 > 100` and `X2`="there is no cough", then `Y=`"flu";
 5. If `X1 > 100` and `X2`="there is cough", then `Y`="pneumonia";
 
-Any new (unseen) patient can now be diagnosed using these rules.
 </details>
 </summary>
 
+Using these rules, we can not only describe the current patients, we can also apply these same rules to make predictions for new patients!
 
 ***
 
@@ -669,15 +671,16 @@ Any new (unseen) patient can now be diagnosed using these rules.
 
 Activity:
 
-Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. This model is created using *scikit-learn*. Can you understand the code? If so, can you implement it? Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! Afterwar, we'll come back and discuss this as a class.
+Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. This model is created using *scikit-learn*. Can you understand the code? If so, can you implement it? Work in pairs and review the [scikit learn documentation](http://scikit-learn.org/stable/modules/tree.html) to assist you! 
 
-> Instructor Note:
-> Remind the students of what scikit-learn is used for, referring to the discussion from the [Guided Practice](#guided-practice1). Emphasize the importance of learning to look up documentation when they encounter something new!
+Afterward, we'll come back and discuss this as a class.
+
+> Instructor Note: Remind the students of what scikit-learn is used for, referring to the discussion from the [Guided Practice](#guided-practice1). Emphasize the importance of learning to look up documentation when they encounter something new!
 
 For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv).
 
 > Make sure to help students access a copy of the notebook [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). If they have trouble accessing on Github, use Dropbox and provide students with a link.
-> 
+
 > Note: As a reminder, students have not had an opportunity to demo the library or the decision tree model yet. Therefore, provide them with the complete notebook and ask students to work in pairs to run and discuss the code. Then bring the class back together to explain the code and allow for questions.
 
 
@@ -686,18 +689,16 @@ For this exercise, you'll need to download the [DataScience101_Part2_DecisionTre
 <a name="conclusion"></a>
 ## Conclusion: Review + Recap Topics (10 mins)
 
-> Review Deliverables
+> Review Deliverables & Topics Covered
 
-> Review Topics Covered
-
-In this workshop, we've covered the following topics:
+Ok, let's review! In this workshop, we've covered the following topics:
 
 - Why data science?
 - What can data science do for me?
-- The data science workflow
-- Analyze and visualize data using Python (pandas, matplotlib, NumPy, etc.)
-- Understand the role of algorithms and their relationship with machine learning
-- Understand the main concepts behind a decision tree to make predictions
+- What is the data science workflow?
+- What tools are commonly used to analyze and visualize data using Python (pandas, matplotlib, NumPy, etc.)
+- How to define algorithms and their role in different types of machine learning
+- How to begin applying these concepts to make real world predictions
 
 ***
 
@@ -706,46 +707,51 @@ In this workshop, we've covered the following topics:
 
 > Instructor Note: Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
 > 
-> Return to the student poll in the [Introduction](#intro1) and ask them what they want to do.
-> 
-> Suggest some resources such as books, podcasts, GA courses, etc.
+> Refer back to the student poll from the [Introduction](#intro1) and reference their specific goals. 
 
-### What Should You Do Next?
+Now that you've got a great start to your learning journey, take the time to outline some next steps. Your learning plan should outline at least 3 possible resources and a relevant goal for each. 
 
-Remember the skills and qualities of a data scientist?
+#### What Should You Do Next?
 
-- Programming skills
-- Math and statistics knowledge
-- Business acumen (substantive expertise)
-- Plus: Communication skills
+Remember the data science skill assessment we discussed earler?
 
-Bearing in mind your self-assessment for these, what are you interested in learning more about and getting a deeper understanding of?
+- Programming skills (Python or R)
+- Knowledgable in algebra and statistics (analyzing and modeling data)
+- Business acumen (how to work with stakeholders)
+- Industry expertise (for the type of field you're working within)
+- Communication skills (visualize data, tell stories)
 
-### Resources
+Refer back to your earlier self-assessment. 
 
-- Books:
+1. Which skills do you want to improve first? Which ones are you most interested in learning about? 
+2. Rank these and identify the top three focus areas.
+3. For each focus area, identify *at least* one possible resource and a related goal.
+4. If you get stuck, check out our suggested resources and ask your instructor for ideas!
+
+## Suggested Resources
+
+#### Books:
 	- [**Data Analysis with Open Source Tools**, P. K. Jannert](https://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596802358)
 	- [**Data Science for Business**, F. Provost and T. Fawcett](https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449361323)
-	- [**Pattern Recognition and Machine Learning**,
-C. Bishop](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738?ie=UTF8&camp=1789&creative=9325&creativeASIN=0387310738)
+	- [**Pattern Recognition and Machine Learning**, C. Bishop](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738?ie=UTF8&camp=1789&creative=9325&creativeASIN=0387310738)
 	- [**Data Science and Analytics with Python**, J Rogel-Salazar](https://www.crcpress.com/Data-Science-and-Analytics-with-Python/Rogel-Salazar/p/book/9781498742092)
 	- [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/) (free PDF)
 	* [Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/) (free PDF)
 	* [Think Stats](http://www.greenteapress.com/thinkstats/) (free PDF or HTML)
 	* [Mining of Massive Datasets](http://www.mmds.org/) (free PDF)
 
-- MOOCs
+#### MOOCs
 	- Andrew Ng's Machine Learning Class on Coursera [link](https://www.coursera.org/course/ml)
 	- MIT's Artificial Intelligence course [link](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 	- Johns Hopkins' Data Analysis Methods [link](https://www.coursera.org/course/dataanalysis)
 	- Cal Tech's Learning from Data course [link](http://work.caltech.edu/lectures.html)
 
-- Blogs:
+#### Blogs:
 	- FiveThirtyEight [link](http://fivethirtyeight.com)
 	- Data Science & Psychology [link](http://www.polipsych.com/)
 	- Inherent Uncertainty [link](http://www.inherentuncertainty.org/)
 
-- Twitter
+#### Twitter
 	- Hillary Mason ([@hmason](https://twitter.com/hmason)): Data Scientist in Residence at Accel and Scientist Emeritus at bitly.
 	- Dj Patil ([@dpatil](https://twitter.com/dpatil)): VP of Product at RelateIQ.
 	- Jeff Hammerbacher ([@hackingdata](https://twitter.com/hackingdata)): Founder and Chief Scientist at Cloudera and Assistant Professor at the Icahn School of Medicine at Mount Sinai.
@@ -754,7 +760,7 @@ C. Bishop](https://www.amazon.com/Pattern-Recognition-Learning-Information-Stati
 	- Drew Conway ([@drewconway](https://twitter.com/drewconway)): Head of Data at Project Florida
 
 
-- Aggregators
+#### Aggregators
 
 	* [DataTau](http://www.datatau.com/): Like [Hacker News](https://news.ycombinator.com/), but for data
 	* [MachineLearning on reddit](http://www.reddit.com/r/MachineLearning/): Very active subreddit
@@ -762,7 +768,7 @@ C. Bishop](https://www.amazon.com/Pattern-Recognition-Learning-Information-Stati
 	* [Quora's Data Science topic FAQ](https://www.quora.com/What-is-the-Data-Science-topic-FAQ)
 	* [KDnuggets](http://www.kdnuggets.com/): Data mining news, jobs, classes and more
 
-- Other Resources
+#### Other Resources
 
 	* [Open Source Data Science Masters](https://github.com/datasciencemasters/go): Huge list of resources
 	* [Data Science Trello Board](https://trello.com/b/rbpEfMld/data-science): Another list of resources
@@ -772,22 +778,23 @@ C. Bishop](https://www.amazon.com/Pattern-Recognition-Learning-Information-Stati
 	* [Metacademy](http://www.metacademy.org/list): Quick summary of many machine learning terms, with links to resources for learning more
 	* [Terms in data science defined in one paragraph](https://github.com/rasbt/pattern_classification/blob/master/resources/data_glossary.md)
 
-### Data Science at GA
+#### Data Science at GA
 
-At GA we offer a part time and immersive course on data science! 
+At GA, we offer part time and immersive courses in data science! Some of the topics we cover in our courses include:
 
-Some of the topics covered include:
+- Statistical analysis & python programming
+- Common supervised & unsupervised learning algorithms
+- Natural language processing
+- Time series analysis
+- Applying the data science workflow to real world problems
+- And more!
 
-- linear and logistic regression
-- decision trees
-- natural language processing
-- time series analysis, and more! 
 
-However, to qualify for the course you'll need to brush up on some basic statistics and review python syntax fundamentals beforehand.
+To qualify for our courses, you'll want to dig into some basic summary statistics and introdcutory python programming fundamentals beforehand!
 
 #### Q & A
 
-> Instructor Note: Encourage the students to share any thoughts or questions before closing the session.
+> Instructor Note: Encourage the students to share any final thoughts or questions.
 
 ***
 
@@ -797,5 +804,3 @@ However, to qualify for the course you'll need to brush up on some basic statist
 - [15 sorting algos in 6 min](https://www.youtube.com/watch?v=kPRA0W1kECg)
 - [Decision trees in scikit-learn](http://scikit-learn.org/stable/modules/tree.html)
 - [Decision trees tutorial](http://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
-
-For more resources see the list provided in the [Takeaways Section](#takeaway).
