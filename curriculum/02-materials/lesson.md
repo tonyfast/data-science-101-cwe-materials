@@ -674,7 +674,7 @@ Using these rules, we can not only describe the current patients, we can also ap
 > For novice students, conduct this exercise as a **guided pracice** and walk them through it as a class. Break them into groups and ask them to use documentation to *successfully identify decision trees in python* in the attached notebook, making sure to assist each group. Demo your explanation to the class as needed.
 
 
-Activity:
+#### Activity:
 
 Using the dataset(s) from [Part 1 - Guided Practice](#guided-practice1) or [Part 1 - Independent Practice](#ind-practice1), pair up and review the decision tree algorithm. 
 
