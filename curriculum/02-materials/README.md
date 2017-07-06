@@ -29,6 +29,7 @@ creator:
 - Write learning objectives & relevant information on board
 - Review student roster
 - Prepare handout to distribute to students
+- Explore [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris)
 
 ### WORKSHOP AGENDA
 | TIMING  | TYPE  | TOPIC  |
