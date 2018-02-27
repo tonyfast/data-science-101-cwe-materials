@@ -1,0 +1,7 @@
+name: ds101
+channels:
+- conda-forge
+dependencies:
+- pandas
+- matplotlib
+- scikit-learn
