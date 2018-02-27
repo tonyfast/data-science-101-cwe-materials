@@ -2,6 +2,8 @@
 
 Welcome to General Assembly's Data Science 101. This repository contains all of the materials supplied for this workshop.
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/tonyfast/data-science-101-cwe-materials/master?urlpath=lab)
+
 ## Value Proposition
 
 Data Scientist is the "sexiest job of the 21st century", according to Harvard Business Review. Despite all the hype surrounding big data, data scientists know that the size of your data doesn't matter - it’s what you do with it. This workshop represents the first step towards avoiding buzzwords and improving your data literacy.
